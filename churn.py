@@ -4,3 +4,7 @@ customers = [
     {"age": 32, "monthly_bill": 800, "months_active": 12, "churned": 1},
     {"age": 50, "monthly_bill": 1500, "months_active": 60, "churned": 0}
 ]
+
+
+def filter_churned_customers(customers):
+    print(customers)
